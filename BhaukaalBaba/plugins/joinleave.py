@@ -61,7 +61,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("🔥🇷 🇺 🇰  🇦 🇾 🇦  🇨 🇭 🇴 🇩  🇰 🇪  💥💥")
+                await event.edit("𝘽𝙊𝙒 𝘿𝙊𝙒𝙉 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙆𝙄𝙉𝙂\n\n           𝙇𝙊𝙍𝘿 𝙇𝙐𝘾𝙄𝙁𝙀𝙍")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -119,7 +119,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("🇭 ᗩᕼᗩᕼᗩᕼᗩ 🇵 ᖇIᐯᗩTᗴ 🇲 ᗴ 🇨 ᕼᑌᗪᗴᘜI 🇦 ᒍᒍ ❤️‍🔥")
+                await event.edit("𝙄 𝘼𝙈 𝘼 𝙁𝘼𝙇𝙇𝙀𝙉 𝘼𝙉𝙂𝙇𝙀")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -179,7 +179,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("🇧 ᗩᗩᑭ 🇸 ᗴ 🇨 ᕼᑌᗪ 🇬 Yᗴ 🇨 ᕼᑌTIYᗴ🤤🤤")
+                await event.edit("𝙃𝙀𝙇𝙇 𝙄𝙎 𝙏𝙃𝙀 𝘽𝙀𝙎𝙏 𝙋𝙇𝘼𝘾𝙀")
             except Exception as e:
                 await event.edit(str(e))   
         else:
