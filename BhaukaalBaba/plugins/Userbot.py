@@ -86,14 +86,13 @@ async def ping(e):
         start = datetime.now()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        pingop = f"🤤 🇧 🇭 🇦 🇺 🇰 🇦 🇦 🇱 🤤\n\n🤩=⚡️🇧 🇦 🇧 🇦 =͟͟⚡️🤩 sᴘᴀᴍ ϟ `{ms}` ᗰՏ\n💥💥Տᑭᗴᗴᗪ ᑭᗩKKᗩᗪ ᗷᗩᗩᑭ KI ᑕᕼOᗪᗪᗴ💥💥"                   
+        pingop = f"𝐏𝐈𝐍𝐆 𝐏𝐎𝐍𝐆 𝐍𝐀𝐀 𝐊𝐑 𝐊𝐈𝐒𝐊𝐈 𝐌𝐀𝐑𝐍𝐈 𝐇 𝐒𝐈𝐃𝐇𝐀 𝐖𝐎 𝐁𝐓𝐀😒\n\n 𝐀𝐀𝐂𝐇𝐀 𝐒𝐏𝐄𝐄𝐃 𝐃𝐄𝐊𝐇𝐄𝐆𝐀 𝐃𝐄𝐊𝐇 𝐋𝐄`{ms}` ᗰՏ\n💥💥𝐃𝐄𝐊𝐇 𝐋𝐄 𝐆𝐎𝐋𝐈 𝐇 𝐌𝐄𝐑𝐈 𝐒𝐏𝐄𝐄𝐃💥💥"                   
         await fuk.edit(pingop)
 
 
 # ALIVE
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/138c06e6f651707c7edc7.jpg"
-
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/f46ef5ff0918f8026e78c.jpg"
 
 rizoel = "✧ BHAUKAAL BABA 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✧\n\n"
 
@@ -119,7 +118,7 @@ async def alive(event):
    
 # help
 
-HELP_PIC = "https://te.legra.ph/file/138c06e6f651707c7edc7.jpg"
+HELP_PIC = "https://te.legra.ph/file/f46ef5ff0918f8026e78c.jpg"
 
 RiZoeLX = "🔥 BHAUKAAL BABA 𝗦𝗣𝗔𝗠 🔥\n\n"
  
@@ -194,7 +193,7 @@ async def help(event):
 @Riz40.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "🇺 ᖴᖴ 🇩 OᖇᗴᗰOᑎ 🇰 I 🇬 ᗩᑎᗪ 🇩 ᗴKᕼ 🇰 ᗴ 🇦 Tᗩ 🇭 🇺"
+        text = "🇷𝗨𝗞  🇯𝗔𝗔 🇵𝗥𝗢𝗧𝗘𝗖𝗧𝗜𝗢𝗡  🇱𝗚𝗔𝗡𝗘  🇩 𝗘"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()
